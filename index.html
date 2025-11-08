@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creator Growth Intelligence ? Hybrid Fitness/Lifestyle/Entrepreneur</title>
+  <meta name="description" content="Master growth playbook to 100K+ followers in 10 months for hybrid fitness/lifestyle/entrepreneur creators. Intelligence on hooks, scripting, editing, and algorithms." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">?</div>
+        <div>
+          <h1>Creator Growth Intelligence</h1>
+          <p class="subtitle">Hybrid Fitness ? Lifestyle ? Entrepreneur</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#dashboard">Dashboard</a>
+        <a href="#accounts">Accounts</a>
+        <a href="#patterns">Patterns</a>
+        <a href="#playbook">Playbook</a>
+        <a href="#exports">Export</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="dashboard" class="card">
+      <h2>Mission Overview</h2>
+      <p>Comprehensive intelligence on top-performing creators to engineer a master growth system to <strong>100K+ followers in 10 months</strong> in the hybrid fitness/lifestyle/entrepreneur niche. Primary focus on viral hooks, scripting frameworks, engagement editing, and Instagram algorithm mastery.</p>
+      <div class="kpis">
+        <div class="kpi"><span id="kpi-accounts">0</span><label>Accounts Analyzed</label></div>
+        <div class="kpi"><span id="kpi-patterns">0</span><label>Patterns Extracted</label></div>
+        <div class="kpi"><span id="kpi-templates">0</span><label>Content Templates</label></div>
+        <div class="kpi"><span id="kpi-timeline">10</span><label>Month Timeline</label></div>
+      </div>
+    </section>
+
+    <section id="accounts" class="grid-2">
+      <div class="card">
+        <h2>Target Accounts</h2>
+        <div id="target-accounts" class="account-list"></div>
+      </div>
+      <div class="card">
+        <h2>Additional Discovery</h2>
+        <p>Top-performing profiles in the hybrid fitness/lifestyle/entrepreneur ecosystem for adjacency mapping and idea borrowing.</p>
+        <div id="additional-accounts" class="account-list"></div>
+      </div>
+    </section>
+
+    <section id="patterns" class="card">
+      <h2>High-Leverage Patterns</h2>
+      <div class="tabs">
+        <button class="tab active" data-tab="hooks">Hooks</button>
+        <button class="tab" data-tab="scripting">Scripting</button>
+        <button class="tab" data-tab="editing">Editing</button>
+        <button class="tab" data-tab="algorithm">Algorithm</button>
+      </div>
+      <div id="tab-content"></div>
+    </section>
+
+    <section id="playbook" class="grid-2">
+      <div class="card">
+        <h2>Master Growth Playbook</h2>
+        <p>Generate a 10-month execution plan with volume targets, content pillars, cadence, and compounding growth loops.</p>
+        <form id="playbook-form" class="form">
+          <div class="field">
+            <label>Primary Persona</label>
+            <input type="text" id="persona" placeholder="Hybrid athlete ? creator ? entrepreneur" />
+          </div>
+          <div class="field">
+            <label>Content Pillars (comma-separated)</label>
+            <input type="text" id="pillars" placeholder="Training systems, Performance lifestyle, Business build-in-public, Mindset, Community" />
+          </div>
+          <div class="field">
+            <label>Platforms</label>
+            <label class="checkbox"><input type="checkbox" id="platform-ig" checked /> Instagram</label>
+            <label class="checkbox"><input type="checkbox" id="platform-yt" checked /> YouTube Shorts</label>
+            <label class="checkbox"><input type="checkbox" id="platform-tk" /> TikTok</label>
+          </div>
+          <div class="field">
+            <label>Weekly Output Goal</label>
+            <input type="number" id="weekly-output" min="3" max="60" value="21" />
+          </div>
+          <button type="submit" class="btn">Generate Plan</button>
+        </form>
+      </div>
+      <div class="card">
+        <h2>Plan Preview</h2>
+        <div id="plan-preview" class="plan"></div>
+      </div>
+    </section>
+
+    <section id="exports" class="card">
+      <h2>Exports</h2>
+      <div class="export-actions">
+        <button id="export-md" class="btn">Download Playbook (.md)</button>
+        <button id="export-csv" class="btn btn-secondary">Download Content Calendar (.csv)</button>
+      </div>
+      <p class="hint">Exports include: 10-month roadmap, pillar breakdown, templates, hooks library, and weekly batching schedule.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>? 2025 Creator Growth Intelligence</span>
+      <span>Built for rapid experimentation and compounding audience growth.</span>
+    </div>
+  </footer>
+
+  <script src="/app.js" type="module"></script>
+</body>
+</html>
